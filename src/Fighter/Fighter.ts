@@ -11,7 +11,7 @@ export default interface Fighter {
 
   special?(enemy:Fighter):void
 
-  receiveDamage(attackPoints:number):number
+  receiveDamage(attackPoints:number):void
 
   levelUp():void
 }
