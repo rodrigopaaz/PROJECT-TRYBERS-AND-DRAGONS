@@ -4,7 +4,7 @@ export default interface Fighter {
   lifePoints: number;
 
   strength:number;
-  defense:number;
+  defense?:number;
   energy?:Energy;
 
   attack(enemy:Fighter):void 
@@ -13,5 +13,5 @@ export default interface Fighter {
 
   receiveDamage(attackPoints:number):void
 
-  levelUp():void
+  levelUp?():void
 }
