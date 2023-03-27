@@ -44,9 +44,8 @@ export default class Character implements Fighter {
     return this._lifePoints;
   }
 
-  attack(enemy: Fighter | SimpleFighter): number {
-    const damageCount = this.strength - enemy.lifePoints;
-    return damageCount;      
+  attack(enemy: Fighter | SimpleFighter): void {
+    enemy.receiveDamage(this._strength);
   }
 
   levelUp(): void {
