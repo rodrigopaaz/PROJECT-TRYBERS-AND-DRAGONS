@@ -31,7 +31,7 @@ Abra seu terminal <ctrl> + <alt> + <t>
   
 Clone o repositório:
 ```
-git clone https://github.com/Bel-Albuquerque/trybers-and-dragons.git
+git clone https://github.com/rodrigopaaz/PROJECT-TRYBERS-AND-DRAGONS.git
 ```
 Entre na pasta do repositório que você acabou de clonar:
  ```
